@@ -5,7 +5,7 @@ def game():
     print("********---******","PFS ticTacToe Game","**********---******")    
     print("   **************","Have fun","*************************   ")
 
-    #A function take both players names and their symbol respectively and change to uppercase
+    #A function that takes both players names and their symbol respectively and change to uppercase
     def take_input():
         try:
             global player1
