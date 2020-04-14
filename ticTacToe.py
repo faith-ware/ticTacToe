@@ -18,11 +18,11 @@ def game():
             player2Sign = str(input(f"{player2} choose the symbol you want 'X or O' or customize: ")).upper()
             if (player1 == player2) or (player1Sign == player2Sign):
                 print("\n\n")
-                print("Enter a valid name")
+                print("Both names are the same\nEnter different names")
                 take_input()
             if ((player1 == " ") or (player1Sign == " ")) or ((player2 == " ") or (player2Sign == " ")):
                 print("\n")
-                print("Both names are the same\nEnter different names")
+                print("Enter a valid name")
                 take_input()       
         except Exception:
             take_input()  
