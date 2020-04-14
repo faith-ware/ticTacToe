@@ -18,12 +18,12 @@ def game():
             player2Sign = str(input(f"{player2} choose the symbol you want 'X or O' or customize: ")).upper()
             if ((player1.isspace()) or (player1Sign.isspace())) or ((player2.isspace()) or (player2Sign.isspace())):
                 print("\n")
-                print("Name can not be empty")
+                print("Name or symbol can not be empty")
                 print("Enter a valid name")
                 take_input()
             if ((player1 == "") or (player1Sign == "")) or ((player2 == "") or (player2Sign == "")):
                 print("\n")
-                print("Name can not be empty")
+                print("Name or symbol can not be empty")
                 print("Enter a valid name")
                 take_input()
             if (player1 == player2) or (player1Sign == player2Sign):
